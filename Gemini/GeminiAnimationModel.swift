@@ -133,7 +133,7 @@ final class GeminiAnimationModel {
     var anchorPoint = CGPoint(x: 0.5, y: 0.5)
 
     /// UIAppearanceAnimatable properties
-    var alpha: CGFloat?
+    var alpha: CGFloat? = 0.7
     var cornerRadius: CGFloat?
     var startBackgroundColor: UIColor?
     var endBackgroundColor: UIColor?
